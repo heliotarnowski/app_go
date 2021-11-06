@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "htapp:v999"
+const webContent = "htapp:v1000"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
