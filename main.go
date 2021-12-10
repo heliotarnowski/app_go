@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "HT Helio APP : V. 1.01"
+const webContent = "HT Helio APP : V. 1.02"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
